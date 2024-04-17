@@ -59,8 +59,8 @@ try:
         EC.presence_of_element_located((By.XPATH, "//input[@aria-label='Buscar en Marketplace']"))
     )
 
-    # Escribir "logitech g pro x" en la barra de búsqueda 
-    search_bar.send_keys("logitech g pro x")
+    # Escribir "PC Gamer" en la barra de búsqueda 
+    search_bar.send_keys("PC Gamer")
     search_bar.send_keys(Keys.RETURN)
     time.sleep(5)
     driver.save_screenshot('C:/Users/wali/Desktop/automatizacion/Capturas/facebook_marketplace_search_logitech.png')
@@ -82,8 +82,8 @@ try:
         EC.presence_of_element_located((By.XPATH, "//input[@aria-label='Buscar en Marketplace']"))
     )
 
-    # Escribir "rtx 3060" en la barra de búsqueda y presionar Enter
-    search_bar.send_keys("rtx 3060")
+    # Escribir "PS5" en la barra de búsqueda y presionar Enter
+    search_bar.send_keys("PS5 Slim")
     search_bar.send_keys(Keys.RETURN)
     time.sleep(5)
     driver.save_screenshot('C:/Users/wali/Desktop/automatizacion/Capturas/facebook_marketplace_search_rtx3060.png')
